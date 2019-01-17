@@ -1,12 +1,12 @@
 public class MountainBike extends Bicycle {
-    private String suspension;
+    private String suspension; //addition of suspension --> data encapsulation
 
-    public MountainBike(
+    public MountainBike( //addition of new variables startCadence, startSpeed, startGear
                int startCadence,
                int startSpeed,
                int startGear,
                String suspensionType){
-        super(startCadence,
+        super(startCadence, //
               startSpeed,
               startGear);
         this.setSuspension(suspensionType);
